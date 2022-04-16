@@ -7,8 +7,7 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "json-server --watch db.json",
-    "build": "react-scripts build"
+    "start": "json-server --watch db.json --port 3001"
   },
   "keywords": [],
   "author": "",
